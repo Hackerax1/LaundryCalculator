@@ -55,7 +55,7 @@
             // 
             this.calculateButton.Location = new System.Drawing.Point(199, 217);
             this.calculateButton.Name = "calculateButton";
-            this.calculateButton.Size = new System.Drawing.Size(75, 23);
+            this.calculateButton.Size = new System.Drawing.Size(236, 67);
             this.calculateButton.TabIndex = 7;
             this.calculateButton.Text = "Calculate";
             this.calculateButton.UseVisualStyleBackColor = true;
@@ -79,16 +79,26 @@
             // 
             this.endtimeTextbox.Location = new System.Drawing.Point(199, 111);
             this.endtimeTextbox.Name = "endtimeTextbox";
-            this.endtimeTextbox.Size = new System.Drawing.Size(100, 20);
+            this.endtimeTextbox.Size = new System.Drawing.Size(236, 20);
             this.endtimeTextbox.TabIndex = 10;
             this.endtimeTextbox.TabStop = false;
             // 
             // washerCount
             // 
             this.washerCount.Location = new System.Drawing.Point(35, 217);
+            this.washerCount.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.washerCount.Name = "washerCount";
             this.washerCount.Size = new System.Drawing.Size(52, 20);
             this.washerCount.TabIndex = 4;
+            this.washerCount.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // dryerCount
             // 
@@ -98,9 +108,19 @@
             0,
             0,
             0});
+            this.dryerCount.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.dryerCount.Name = "dryerCount";
             this.dryerCount.Size = new System.Drawing.Size(52, 20);
             this.dryerCount.TabIndex = 5;
+            this.dryerCount.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // label1
             // 
@@ -132,9 +152,19 @@
             // loadCount
             // 
             this.loadCount.Location = new System.Drawing.Point(35, 175);
+            this.loadCount.Minimum = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             this.loadCount.Name = "loadCount";
             this.loadCount.Size = new System.Drawing.Size(52, 20);
             this.loadCount.TabIndex = 3;
+            this.loadCount.Value = new decimal(new int[] {
+            1,
+            0,
+            0,
+            0});
             // 
             // label4
             // 
@@ -161,7 +191,7 @@
             this.startTime.Location = new System.Drawing.Point(199, 58);
             this.startTime.Name = "startTime";
             this.startTime.ShowUpDown = true;
-            this.startTime.Size = new System.Drawing.Size(82, 20);
+            this.startTime.Size = new System.Drawing.Size(92, 20);
             this.startTime.TabIndex = 6;
             // 
             // label6
@@ -177,7 +207,7 @@
             // 
             this.totalTimeTextbox.Location = new System.Drawing.Point(199, 174);
             this.totalTimeTextbox.Name = "totalTimeTextbox";
-            this.totalTimeTextbox.Size = new System.Drawing.Size(142, 20);
+            this.totalTimeTextbox.Size = new System.Drawing.Size(236, 20);
             this.totalTimeTextbox.TabIndex = 16;
             this.totalTimeTextbox.TabStop = false;
             // 
@@ -203,7 +233,7 @@
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(393, 334);
+            this.ClientSize = new System.Drawing.Size(546, 334);
             this.Controls.Add(this.label8);
             this.Controls.Add(this.label7);
             this.Controls.Add(this.totalTimeTextbox);
