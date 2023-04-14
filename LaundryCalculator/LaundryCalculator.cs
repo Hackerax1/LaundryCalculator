@@ -74,7 +74,10 @@ namespace LaundryCalculator
             }
             totalTimeTextbox.Text = totalDurationStr;
 
-
+            if (numLoads > 50)
+            {
+                MessageBox.Show("Why Gya Why");
+            }
         }
     }
 }
